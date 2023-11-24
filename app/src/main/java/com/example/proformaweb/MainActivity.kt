@@ -55,10 +55,10 @@ class MainActivity : AppCompatActivity() {
         val estimatedBudget = findViewById<EditText>(R.id.editTextText4).text.toString()
         val projectFunctionalities = findViewById<EditText>(R.id.editTextText6).text.toString()
 
-//        if (name.isEmpty() || email.isEmpty() || phone.isEmpty() || businessName.isEmpty() || projectObjectives.isEmpty()) {
-//            Toast.makeText(this, "Rellene todos los campos", Toast.LENGTH_SHORT).show()
-//            return
-//        }
+        if (name.isEmpty() || email.isEmpty() || phone.isEmpty() || businessName.isEmpty() || projectObjectives.isEmpty()) {
+            Toast.makeText(this, "Rellene todos los campos", Toast.LENGTH_SHORT).show()
+            return
+        }
 
         val intent = Intent(this, SecondActivity::class.java)
 

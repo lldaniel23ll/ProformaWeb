@@ -2,7 +2,6 @@ package com.example.proformaweb
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
 import android.widget.TextView
 import java.util.Calendar
 
@@ -54,6 +53,7 @@ class SecondActivity : AppCompatActivity() {
                 textViewText.text = "No se ha seleccionado ninguna opción, porfavor regrese para darle el tiempo estimado que llevara el proyecto"
             }
         }
-
     }
+
+
 }
